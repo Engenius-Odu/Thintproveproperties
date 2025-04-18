@@ -1,76 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Flexible Rent Abuja | ThintProve Elite Properties</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thintprove Elite Properties</title>
   <style>
-    :root {
-      --primary: #EF5A28;
-      --dark: #231F20;
-    }
+    body { font-family: Arial, sans-serif; margin: 0; background-color: #f5f7fa; color: #333; }
+    header { background-color: #002f6c; color: #fff; padding: 20px; text-align: center; }
+    nav { background: #0052cc; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    h2 { color: #002f6c; }
+    img { max-width: 100%; height: auto; border-radius: 8px; margin-top: 15px; }
+    .gallery { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+    .gallery img { width: 30%; min-width: 200px; }
+    footer { background: #002f6c; color: white; text-align: center; padding: 20px; }
   </style>
 </head>
-<body class="bg-gray-50 text-gray-800">
-  <header class="bg-white shadow p-4">
-    <div class="max-w-6xl mx-auto flex justify-between items-center">
-      <div class="flex items-center gap-4">
-        <img src="ThintProve Elite Properties Logo-02.jpg" alt="ThintProve Logo" class="h-12 w-auto">
-        <div>
-          <h1 class="text-xl font-bold text-[color:var(--dark)]">ThintProve Elite Properties</h1>
-          <p class="text-sm text-[color:var(--primary)]">Expert management, guaranteed peace of mind</p>
-        </div>
-      </div>
-      <a href="#contact" class="bg-[color:var(--primary)] text-white px-4 py-2 rounded">Join the Pilot</a>
-    </div>
-  </header>
+<body>
 
-  <section class="bg-[color:var(--primary)] py-16 text-white">
-    <div class="max-w-6xl mx-auto px-4 text-center">
-      <h2 class="text-4xl font-bold mb-4">Introducing Monthly Rent Options in Abuja</h2>
-      <p class="text-lg mb-6">Say goodbye to 1-2 year lump sum payments. Unlock steady income and attract more tenants with our monthly rent model.</p>
-      <a href="#contact" class="bg-white text-[color:var(--primary)] font-semibold px-6 py-3 rounded-lg text-lg">Become a Pilot Landlord</a>
-    </div>
-  </section>
+<header>
+  <h1>Thintprove Elite Properties</h1>
+  <p>Expert property management made effortless</p>
+  <img src="https://source.unsplash.com/1600x500/?real-estate" alt="Property Management Hero Image">
+</header>
 
-  <section class="py-16 bg-white">
-    <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
-      <div>
-        <h3 class="text-2xl font-semibold mb-4 text-[color:var(--primary)]">Why Monthly Rent?</h3>
-        <ul class="space-y-4 text-gray-700">
-          <li><strong>Wider Tenant Pool:</strong> Attract more qualified tenants with flexible payment terms.</li>
-          <li><strong>Stable Income:</strong> Enjoy consistent monthly cash flow.</li>
-          <li><strong>Less Vacancy:</strong> Fill your properties faster and reduce idle time.</li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="text-2xl font-semibold mb-4 text-[color:var(--primary)]">How It Works</h3>
-        <ul class="space-y-4 text-gray-700">
-          <li>We handle tenant sourcing and screening</li>
-          <li>Monthly automated rent collection</li>
-          <li>Legal agreements optimized for monthly leasing</li>
-          <li>Post-pilot report to evaluate the model’s performance</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#model">Our Model</a>
+  <a href="#contact">Contact</a>
+  <a href="#faqs">FAQs</a>
+</nav>
 
-  <section id="contact" class="py-16 bg-gray-100">
-    <div class="max-w-2xl mx-auto px-4">
-      <h3 class="text-3xl font-bold text-center mb-6 text-[color:var(--dark)]">Join the Pilot Program</h3>
-      <form class="space-y-4 bg-white p-6 rounded-lg shadow">
-        <input type="text" placeholder="Full Name" class="w-full border p-3 rounded" required>
-        <input type="email" placeholder="Email Address" class="w-full border p-3 rounded" required>
-        <input type="text" placeholder="Phone Number" class="w-full border p-3 rounded">
-        <textarea placeholder="Tell us about your property" class="w-full border p-3 rounded h-32"></textarea>
-        <button type="submit" class="bg-[color:var(--primary)] text-white px-6 py-3 rounded-lg w-full">Submit Interest</button>
-      </form>
-    </div>
-  </section>
+<section id="about">
+  <h2>About Us</h2>
+  <p>At Thintprove Elite Properties, we specialize in managing residential, office, and commercial spaces in Abuja, Nigeria. Our mission is to maximize property value for owners while ensuring exceptional experiences for tenants.</p>
+  <img src="https://source.unsplash.com/800x400/?office-building" alt="About Image">
+</section>
 
-  <footer class="bg-white border-t py-4 text-center text-sm text-gray-500">
-    &copy; 2025 ThintProve Elite Properties. All rights reserved.
-  </footer>
+<section id="services">
+  <h2>Our Services</h2>
+  <ul>
+    <li>Tenant sourcing, screening, and lease agreements</li>
+    <li>Monthly rent collection and financial reporting</li>
+    <li>Routine and emergency maintenance</li>
+    <li>Property inspections and tenant communication</li>
+  </ul>
+  <img src="https://source.unsplash.com/800x400/?apartment,building" alt="Services Image">
+</section>
+
+<section id="model">
+  <h2>Our Model</h2>
+  <p>We offer a monthly rent payment system that enhances affordability for tenants and ensures consistent returns for landlords. This model promotes tenant retention and financial predictability.</p>
+  <img src="https://source.unsplash.com/800x400/?rental,contract" alt="Model Image">
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Address:</strong> No 1, B Close, Trademore Estate Lugbe, Abuja, FCT, Nigeria</p>
+  <p><strong>Email:</strong> Thintprovelite17@gmail.com</p>
+  <p><strong>Phone:</strong> 08105122035 | 08105399777</p>
+  <img src="https://source.unsplash.com/800x400/?contact,team" alt="Contact Image">
+</section>
+
+<section id="faqs">
+  <h2>FAQs</h2>
+  <p><strong>Q: What types of properties do you manage?</strong><br>
+  A: Residential, office, and commercial spaces.</p>
+
+  <p><strong>Q: How is rent collected?</strong><br>
+  A: Rent is paid monthly via direct debit or transfer, with reminders and follow-up for late payments.</p>
+
+  <p><strong>Q: Who handles maintenance?</strong><br>
+  A: We use a mix of in-house staff and vetted vendors for all maintenance needs.</p>
+</section>
+
+<section class="gallery">
+  <h2>Gallery</h2>
+  <img src="https://source.unsplash.com/400x300/?apartment" alt="Gallery Image 1">
+  <img src="https://source.unsplash.com/400x300/?office" alt="Gallery Image 2">
+  <img src="https://source.unsplash.com/400x300/?real-estate" alt="Gallery Image 3">
+</section>
+
+<footer>
+  <p>&copy; 2025 Thintprove Elite Properties. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
